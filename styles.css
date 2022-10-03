@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    background-color: darkgray;
+    width: 434px;
+    font-family: 'EB Garamond', serif;
+    height: 100vh;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: tomato; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+
+}
+
+.about {
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+}
+.moreabout{
+    font-size: 15px;
+    font-family: 'Crimson Text', serif;
+}
+
+.buttons button {
+    margin-top: 9px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: lavender;
+    color: black;
+    margin: 12 13px;
+}
+.buttons button:hover{
+    color: white;
+    background-color: aqua;
+}
+
+.devPic img {
+    height: 60vh;
+}
